@@ -1,0 +1,35 @@
+{
+  "project_name": "نظام إدارة المناقشات",
+  "project_type": "school_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "مناقشات",
+    "مواضيع",
+    "مواضيع_مفتوحة"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_مناقشات",
+    "create_مناقشة",
+    "edit_مناقشة",
+    "delete_مناقشة"
+  ],
+  "permissions": {
+    "guest": [
+      "index"
+    ],
+    "user": [
+      "index",
+      "list_مناقشات"
+    ],
+    "admin": [
+      "index",
+      "list_مناقشات",
+      "create_مناقشة",
+      "edit_مناقشة",
+      "delete_مناقشة"
+    ]
+  }
+}
